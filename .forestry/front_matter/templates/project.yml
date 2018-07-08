@@ -26,3 +26,12 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: list
+  default: []
+  label: Testing
+  name: testing
+  description: Do Something
+  config:
+    use_select: true
+    source:
+      type: pages
